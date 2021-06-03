@@ -39,7 +39,7 @@ int main(void) {
   }
 }
 
-float m_pi(int count){
+float mc_pi(int count){
       double x,y,z,pi;
    int i,l=0;
   for (int i=0; i<count; i++) {
