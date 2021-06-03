@@ -42,7 +42,7 @@ int main(void) {
 float mc_pi(int count){
    long int x,y;   
    double z,pi;
-   int i,l=0;
+   int l=0;
   for (int i=0; i<count; i++) {
       frandom(x);
       frandom(y);
