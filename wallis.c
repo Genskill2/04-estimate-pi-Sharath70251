@@ -25,8 +25,7 @@ int main(void) {
 }
 
 float wallis_pi(int count){
-  count= get_int("Enter the number of iterations: ");
-long double pi = 1.0;
+  long double pi = 1.0;
     for (int i = 1; i < count; i++)
     {
       long double num = 4.0 * i * i;
