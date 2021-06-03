@@ -39,5 +39,19 @@ int main(void) {
   }
 }
 
+float m_pi(int count){
+      double x,y,z;
+   int i,l=0;
+  for (int i=0; i<count; i++) {
+      x = (double)rand()/RAND_MAX;
+      y = (double)rand()/RAND_MAX;
+      z = x*x+y*y;
+      if (z<=1)
+         l++;
+      }
+   pi=(double)l/count*4; 
+
+}
+
 
 
