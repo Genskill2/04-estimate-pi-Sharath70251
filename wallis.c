@@ -29,7 +29,7 @@ float wallis_pi(int count){
     for (int i = 1; i < count; i++)
     {
       long double num = 4.0 * i * i;
-        pi *= num / (num - 1);
+        pi = pi*(num / (num - 1));
     }
     return pi * 2;
   }
