@@ -40,8 +40,7 @@ int main(void) {
 }
 
 float mc_pi(int count){
-   long int x,y;   
-   double z,pi;
+  double z,x,y,pi;
    int l=0;
   for (int i=0; i<count; i++) {
       x=frandom();
