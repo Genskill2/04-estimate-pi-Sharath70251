@@ -32,7 +32,7 @@ float wallis_pi(int n)
    {
       v1 = 4.0*i*i;
       v2 = v1-1;
-      pi *= v1/v2
+      pi *= v1/v2;
    }
     return pi;
 }   
